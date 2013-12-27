@@ -1,0 +1,58 @@
+name: SurvivalGames
+main: com.eyeofender.survivalgames.SurvivalGames
+version: 1.0.0
+authors: [avery246813579, c4r3r]
+description: Can you survive the games?
+depend: [DisguiseCraft]
+database: true
+softdepend: [EnderPearl]
+commands:
+    create:
+        description: Creates an arena.
+    update:
+        description: Updates an arena.
+    vote:
+        description: Votes for a map.
+        aliases: v        
+    startNow:
+        description: Starts an arena.
+        aliases: sn   
+    kitInfo:
+        description: Shows the info about kits.
+        aliases: ki    
+    kit:  
+        description: Selects a kit.
+        aliases: k           
+    kits:  
+        description: Lists the kits a player owns.
+        aliases: ks
+    buyKit:  
+        description: Lets a player buy a kit.
+        aliases: bk        
+    stats:  
+        description: Opens a players stats.
+        aliases: s
+    goto:  
+        description: Goes to a players location.
+        aliases: gt
+    loadMap:  
+        description: Loads a map.
+        aliases: lm
+    top:  
+        description: Loads a map.
+        aliases: t
+    start:  
+        description: Loads a map.
+        aliases: s
+    bounty:  
+        description: Loads a map.
+        aliases: b
+    players:  
+        description: Loads a map.
+        aliases: plrs
+    list:  
+        description: Loads a map.
+        aliases: l
+    sponsor:  
+        description: Loads a map.
+        aliases: l

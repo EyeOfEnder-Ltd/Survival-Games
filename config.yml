@@ -1,0 +1,348 @@
+# The lobby timer.
+lobbyTimer: 300
+minPlayers: 6
+deathmatchPlayers: 6
+gameTimer: 1200
+deathmatchTimer: 300
+deathmatchBordersize: 35
+maps:
+- coliseum
+- skyden
+- skyrocks
+- treacherous heights
+waitTimer: 10
+startingTimer: 30
+world: worlds
+whitelistedBlocks:
+- 18
+- 31
+- 38
+- 37
+- 39
+- 40
+- 59
+lobby:
+  world: world
+  x: -822
+  y: 191
+  z: -220
+  yaw: 1.0650088
+  pitch: 1.2260675E-5
+DefaultKit: Digger
+ChestItems:
+- 357 0 1
+- 357 0 1
+- 357 0 1
+- 357 0 1
+- 357 0 1
+- 260 0 1
+- 260 0 1
+- 260 0 1
+- 260 0 1
+- 393 0 1
+- 393 0 1
+- 393 0 1
+- 297 0 1
+- 297 0 1
+- 297 0 1
+- 350 0 1
+- 350 0 1
+- 350 0 1
+- 366 0 1
+- 366 0 1
+- 366 0 1
+- 391 0 1
+- 391 0 1
+- 391 0 1
+- 391 0 1
+- 360 0 1
+- 360 0 1
+- 360 0 1
+- 360 0 1
+- 360 0 1
+- 282 0 1
+- 282 0 1
+- 365 0 1
+- 365 0 1
+- 365 0 1
+- 365 0 1
+- 365 0 1
+- 363 0 1
+- 363 0 1
+- 363 0 1
+- 363 0 1
+- 363 0 1
+- 319 0 1
+- 319 0 1
+- 319 0 1
+- 319 0 1
+- 319 0 1
+- 364 0 1
+- 364 0 1
+- 268 0 1
+- 268 0 1
+- 268 0 1
+- 268 0 1
+- 271 0 1
+- 271 0 1
+- 271 0 1
+- 271 0 1
+- 280 0 1
+- 280 0 1
+- 280 0 1
+- 280 0 1
+- 280 0 1
+- 272 0 1
+- 272 0 1
+- 272 0 1
+- 275 0 1
+- 275 0 1
+- 275 0 1
+- 265 0 1
+- 265 0 1
+- 266 0 1
+- 266 0 1
+- 264 0 1
+- 322 0 1
+- 368 0 1
+- 368 0 2
+- 261 0 1
+- 261 0 1
+- 261 0 1
+- 261 0 1
+- 262 0 1
+- 262 0 2
+- 262 0 3
+- 262 0 4
+- 318 0 1
+- 318 0 1
+- 318 0 1
+- 318 0 1
+- 318 0 1
+- 288 0 1
+- 288 0 1
+- 288 0 1
+- 288 0 1
+- 288 0 1
+- 296 0 1
+- 296 0 1
+- 296 0 1
+- 296 0 1
+- 296 0 1
+- 359 0 1
+- 359 0 1
+- 359 0 1
+- 359 0 1
+- 39 0 1
+- 39 0 1
+- 39 0 1
+- 39 0 1
+- 40 0 1
+- 40 0 1
+- 40 0 1
+- 40 0 1
+- 298 0 1
+- 298 0 1
+- 298 0 1
+- 299 0 1
+- 299 0 1
+- 299 0 1
+- 300 0 1
+- 300 0 1
+- 300 0 1
+- 301 0 1
+- 301 0 1
+- 301 0 1
+- 302 0 1
+- 302 0 1
+- 303 0 1
+- 303 0 1
+- 304 0 1
+- 304 0 1
+- 305 0 1
+- 305 0 1
+- 306 0 1
+- 307 0 1
+- 308 0 1
+- 309 0 1
+- 332 0 1
+- 332 0 1
+- 344 0 1
+- 344 0 1
+- 344 0 1
+- 344 0 1
+- 344 0 1
+- 281 0 1
+- 281 0 1
+- 281 0 1
+- 281 0 1
+- 281 0 1
+- 281 0 1
+- 384 0 1
+- 384 0 1
+- 346 0 1
+- 346 0 1
+- 346 0 1
+username: root
+password: T1h823S3368c30D
+host: 198.245.49.34
+database: SurvivalGames
+Kits:
+  Warrior:
+    Description: A balanced fighter!
+    ItemDescription: Stone axe, leather boots and helmet.
+    DefaultPermission: sg.kit.warrior
+    Vip: false
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 2000
+    Helmet: 298 0 1
+    Chestplate: 0 0 1
+    Leggings: 0 0 1
+    Boots: 301 0 1
+    Items:
+    - 275 0 1
+  Archer:
+    Description: Stone cold killer from a distance!
+    ItemDescription: Bow, 16 arrows, and a leather chestplate.
+    DefaultPermission: sg.kit.archer
+    Vip: false
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 2000
+    Helmet: 0 0 1
+    Chestplate: 299 0 1
+    Leggings: 0 0 1
+    Boots: 0 0 1
+    Items:
+    - 261 0 1
+    - 262 0 16
+  Sage:
+    Description: The younger knight!
+    ItemDescription: Wooden sword, and a leather chestplate.
+    DefaultPermission: sg.kit.sage
+    Vip: false
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 2000
+    Helmet: 0 0 1
+    Chestplate: 299 0 1
+    Leggings: 0 0 1
+    Boots: 0 0 1
+    Items:
+    - 268 0 1
+  Brute:
+    Description: Stone cold killer from a distance!
+    ItemDescription: Wooden axe, leather chestplate and leggings.
+    DefaultPermission: sg.kit.brute
+    Vip: false
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 2000
+    Helmet: 0 0 1
+    Chestplate: 299 0 1
+    Leggings: 300 0 1
+    Boots: 0 0 1
+    Items:
+    - 271 0 1
+  Slowman:
+    Description: A magic snow creature!
+    ItemDescription: Wooden axe, 6 snowballs and chainmail boots.
+    DefaultPermission: sg.kit.slowman
+    Vip: true
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 0
+    Helmet: 0 0 1
+    Chestplate: 0 0 1
+    Leggings: 0 0 1
+    Boots: 305 0 1
+    Items:
+    - 271 0 1
+    - 332 0 6
+  Knight:
+    Description: A specialist in killing!
+    ItemDescription: Wooden sword with sharpness 1 and leather helmet.
+    DefaultPermission: sg.kit.knight
+    Vip: true
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 0
+    Helmet: 298 0 1
+    Chestplate: 0 0 1
+    Leggings: 0 0 1
+    Boots: 0 0 1
+    Items:
+    - 268 0 1 DAMAGE_ALL 1
+  Scout:
+    Description: A well rounded fighter!
+    ItemDescription: Knockback stone sword and 2 steaks.
+    DefaultPermission: sg.kit.scout
+    Vip: true
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 0
+    Helmet: 0 0 1
+    Chestplate: 0 0 1
+    Leggings: 0 0 1
+    Boots: 301 0 1
+    Items:
+    - 272 0 1 KNOCKBACK 1
+    - 364 0 2
+  Baker:
+    Description: Lots of food!
+    ItemDescription: Wooden sword, 5 loaves of bread and 2 steaks.
+    DefaultPermission: sg.kit.baker
+    Vip: true
+    Permission:
+    - sg.kit.warrior
+    - sg.rank.vip
+    - eoe.rank.vip
+    - eoe.rank.mod
+    - eoe.rank.admin
+    - eoe.rank.dev
+    Cost: 0
+    Helmet: 0 0 1
+    Chestplate: 0 0 1
+    Leggings: 0 0 1
+    Boots: 0 0 1
+    Items:
+    - 268 0 1
+    - 297 0 5
+    - 364 0 2
+world: worlds
