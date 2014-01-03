@@ -235,7 +235,7 @@ public class KitHandler	implements Listener
 	    
 	    for (Kit kit : this.kits) {
 	    	 for(String perms : kit.getPermission()){
-				  if((p.hasPermission(perms) || p.isOp()) && !hisKit.contains(kit)){
+				  if((p.hasPermission(perms) || p.isOp() || plugin.getEp().getRankManager().hasRank(p)) && !hisKit.contains(kit)){
 					  hisKit.add(kit);
 				  }
 	    	 }
@@ -247,7 +247,7 @@ public class KitHandler	implements Listener
 	  public boolean hasKit(Player player, String Kit){
 		  Kit kit = getKitByName(Kit);
 		  for(String perms : kit.getPermission()){
-			  if(player.hasPermission(perms) || player.isOp()){
+			  if(player.hasPermission(perms) || player.isOp() || plugin.getEp().getRankManager().hasRank(player)){
 				  return true;
 			  }
 		  }
