@@ -18,7 +18,7 @@ public class BlockListener implements Listener {
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onBlockPlace ( BlockPlaceEvent event ){
-		if(event.getPlayer().isOp() && !plugin.getGm().isInGame()){
+		if(plugin.getBuild().contains(event.getPlayer())){
 			return;
 		}
 		
@@ -32,7 +32,7 @@ public class BlockListener implements Listener {
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onBlockBreak ( BlockBreakEvent event ){
-		if(event.getPlayer().isOp() && !plugin.getGm().isInGame()){
+		if(plugin.getBuild().contains(event.getPlayer())){
 			return;
 		}
 		
