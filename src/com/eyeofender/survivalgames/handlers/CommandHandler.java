@@ -2,6 +2,7 @@ package com.eyeofender.survivalgames.handlers;
 
 import com.eyeofender.survivalgames.SurvivalGames;
 import com.eyeofender.survivalgames.commands.CmdBounty;
+import com.eyeofender.survivalgames.commands.CmdBuild;
 import com.eyeofender.survivalgames.commands.CmdBuyKit;
 import com.eyeofender.survivalgames.commands.CmdCreate;
 import com.eyeofender.survivalgames.commands.CmdGoTo;
@@ -10,7 +11,6 @@ import com.eyeofender.survivalgames.commands.CmdKitInfo;
 import com.eyeofender.survivalgames.commands.CmdKits;
 import com.eyeofender.survivalgames.commands.CmdLoadMap;
 import com.eyeofender.survivalgames.commands.CmdPlayers;
-import com.eyeofender.survivalgames.commands.CmdPlugins;
 import com.eyeofender.survivalgames.commands.CmdSponsor;
 import com.eyeofender.survivalgames.commands.CmdStart;
 import com.eyeofender.survivalgames.commands.CmdStartNow;
@@ -47,5 +47,6 @@ public class CommandHandler {
         plugin.getCommand("list").setExecutor(new CmdPlayers(plugin));
         plugin.getCommand("bounty").setExecutor(new CmdBounty(plugin));
         plugin.getCommand("sponsor").setExecutor(new CmdSponsor(plugin));
+        plugin.getCommand("build").setExecutor(new CmdBuild(plugin));
 	}
 }
