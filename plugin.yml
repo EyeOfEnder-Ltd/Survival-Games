@@ -55,4 +55,7 @@ commands:
         aliases: l
     sponsor:  
         description: Loads a map.
-        aliases: l
+        aliases: sp
+    build:  
+        description: Loads a map.
+        aliases: b
