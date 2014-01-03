@@ -60,7 +60,8 @@ public class CmdBounty implements CommandExecutor{
 				}
 				
 				if(amount <= 50){
-					plugin.sendMessage(player, ChatColor.RED + "You have to bounty a least 50 credits.")
+					plugin.sendMessage(player, ChatColor.RED + "You have to bounty a least 50 credits.");
+					return true;
 				}
 				
 				if(targerPlayer == player){
