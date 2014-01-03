@@ -69,6 +69,7 @@ public class SurvivalGames extends JavaPlugin{
 	private List<BountyHandler> bounties = new ArrayList<BountyHandler>();
 	private List<Player> frozen = new ArrayList<Player>();
 	private List<Player> muted = new ArrayList<Player>();
+	private List<Player> build = new ArrayList<Player>();
 	
 	@Override
 	public void onEnable() 
@@ -289,6 +290,14 @@ public class SurvivalGames extends JavaPlugin{
 
 	public void setEp(EnderPearl ep) {
 		this.ep = ep;
+	}
+
+	public List<Player> getBuild() {
+		return build;
+	}
+
+	public void setBuild(List<Player> build) {
+		this.build = build;
 	}
 
 	/**public RankManager getRankManager() {

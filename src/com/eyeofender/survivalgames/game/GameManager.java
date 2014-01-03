@@ -489,4 +489,12 @@ public class GameManager {
 	public void setRampage(List<Player> rampage) {
 		this.rampage = rampage;
 	}
+
+	public GameTimer getGt() {
+		return gt;
+	}
+
+	public void setGt(GameTimer gt) {
+		this.gt = gt;
+	}
 }
