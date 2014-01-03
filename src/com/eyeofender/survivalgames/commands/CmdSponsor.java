@@ -7,7 +7,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.eyeofender.survivalgames.SurvivalGames;
-import com.eyeofender.survivalgames.handlers.SponsorHandler;
 import com.eyeofender.survivalgames.menus.SponsorMenu;
 
 public class CmdSponsor implements CommandExecutor{
@@ -30,6 +29,11 @@ public class CmdSponsor implements CommandExecutor{
 		
 		if(!plugin.getGm().isInGame()){
 			player.sendMessage(ChatColor.RED + "You can not use this command while in lobby.");
+			return true;
+		}
+		
+		if((plugin.getConfigHandler().getGameTimer() - 90) < plugin.getGm().getGt().timer){
+			plugin.sendMessage(player, ChatColor.RED + "You can not sponsor people until 90 seconds after the game starts.");
 			return true;
 		}
 		
